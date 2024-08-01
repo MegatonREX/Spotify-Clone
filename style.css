@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    margin: 6px;
+}
+.left{
+    height: 85vh;
+}
+.header{
+    width: 27vw;
+    border: 2px solid;
+    background-color: hsl(0deg 0% 7.06%);
+    border-style: none;
+    height: 84px;
+    margin-right: 3px;
+    border-radius: 6px;
+}
+.header li{
+    list-style: none;
+    padding: 15px 18px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+}
+.header li ul{
+    margin-bottom: 17px;
+}
+.header li ul a{
+    text-decoration: none;
+    display: flex;
+    gap: 14px;
+}
+.header li ul a img{
+    width: 18px;
+}
+.right{
+    width: 73vw;
+    border: 2px solid;
+    background-color: hsl(0deg 0% 7.06%);
+    border-style: none;
+    margin-left: 3px;
+    height: 85vh;
+    border-radius: 6px;
+
+}
+.footer{
+    border: 2px solid;
+    border-style: none;
+    border-radius: 6px;
+    background-color: hsl(0deg 0% 7.06%);
+    height: 98px;
+    margin-top:6px;
+    margin-right: 3px;
+    height: 67.8vh;
+}
+.footer li{
+    list-style: none;
+    padding: 12px 18px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+}
+.footer li ul a{
+    text-decoration: none;
+    display: flex;
+    gap: 9px;
+}
+.footer li ul a img{
+    width: 18px;
+}
